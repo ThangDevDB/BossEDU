@@ -1,0 +1,179 @@
+
+html, body {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.section{
+    padding: 5rem 0;
+}
+
+a{
+    text-decoration: none;
+}
+   
+.header_top{
+    background-color: aqua;
+    border: 1px solid #000;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.nav_styles a{
+    transition: all 0.25s ease-in-out;
+}
+
+.nav_styles .navbar-brand p:first-child{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.nav_styles .navbar-brand p:first-child i{
+    transform: skewX(-10deg);
+}
+
+.nav_styles .navbar-brand p:last-child{
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: blue;
+    font-weight: bold;
+}
+
+.nav_transition{
+    transition: all 0.75s ease-in-out;
+}
+
+#navbar_bossedu .nav-item {
+    margin: 0px 15px;
+}
+
+#navbar_bossedu .nav-item::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: blue;
+    display: inline-block;
+    /* margin-bottom: 14px; */
+    transition: all 0.5s;
+}
+
+#navbar_bossedu .nav-item:hover::after{
+    width: 100%;
+}
+
+#navbar_bossedu .nav-link{
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+#navbar_bossedu .nav-item:hover .nav-link{
+    color: blue;
+}
+
+#navbar_bossedu .nav-item.active .nav-link{
+    color: blue;
+}
+
+#navbar_bossedu .nav-item.active::after{
+    width: 100%;
+}
+
+#navbar_bossedu .dropdown-menu{
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.6);
+}
+
+.dropdown-item{
+    color: #fff;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: transparent;
+    color: cyan;
+}
+
+/* CAROUSEL CSS */
+.img_styles{
+    height: 600px;
+    filter:brightness(50%);
+}
+
+#carouselBossEdu .carousel-caption{
+    /* kỹ thuật căn giữa chỉ áp dụng với thẻ cha có position: absolute; */
+    top: 55%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#carouselBossEdu .carousel-caption h5{
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#carouselBossEdu .carousel-caption p{
+    letter-spacing: 2px;
+    line-height: 1.8rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#carouselBossEdu .carousel-caption button{
+    background-color: transparent;
+    padding: 11px 20px;
+    color: #fff;
+    transition: all 0.5s;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border: 1px solid #fff;
+}
+
+#carouselBossEdu .carousel-caption button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+ 
+/* WELCOME CSS */
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading h2{
+    font-size: 40px;
+    color: blue;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.heading p{
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.heading p::after{
+    content:'';
+    width: 70px;
+    height: 4px;
+    background-color: blue;
+    display: block;
+    margin: 20px auto;
+}
+
+.welcome_content p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    color: #999;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    padding: 1rem 0 5rem;
+}
