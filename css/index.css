@@ -177,3 +177,32 @@ a{
     letter-spacing: 1px;
     padding: 1rem 0 5rem;
 }
+
+.grid_item i{
+    font-size: 2rem;
+}
+
+.grid_item h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: blue;
+    margin: 1rem 0;
+}
+
+.grid_item h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1rem 0 0.2rem;
+}
+
+.grid_item p{
+    color: #999;
+    font-size: 14px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    margin: 10px 0 0;
+}
+
+.grid_collum{
+    padding: 2rem;
+}
