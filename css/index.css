@@ -12,7 +12,7 @@ a{
 }
    
 .header_top{
-    background-color: aqua;
+    background-color: #fff;
     border: 1px solid #000;
 }
 
@@ -208,3 +208,70 @@ a{
 }
 
 /* Achievements CSS */
+.achievements_bossedu{
+    background-image: url(../images/hanoi.png);
+    background-attachment: fixed;
+    filter:brightness(85%); 
+    background-size: cover;
+
+}
+.heading_text h2, p{
+    color: #000;
+}
+.achievements_content{
+    text-align: center;
+}
+
+.content_items i{
+    font-size: 3rem;
+    color: #000;
+}
+
+.content_items h3{
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content_items p{
+    color: #fff;
+    font-weight: 500px;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+/* BENEFIT CSS */
+.benefit_col{
+    padding: 15px;
+}
+
+.benefit_items{
+    background-color: #fff;
+    box-shadow: 0px 1px 8px 0px rgba(158,158,158,0.75);
+    padding: 25px 40px;
+    transition: all 0.5s;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.benefit_items i{
+    font-size: 40px;
+    color: blue;
+}
+
+.benefit_items h3{
+    margin: 25px 0 20px;
+    font-size: 25px;
+}
+
+.benefit_items p{
+    color: #999;
+    letter-spacing: 1px;
+}
+
+.benefit_items:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
