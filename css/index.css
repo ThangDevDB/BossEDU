@@ -1,54 +1,55 @@
-
-html, body {
+html,
+body {
     font-family: 'Readex Pro', sans-serif;
 }
 
-.section{
+.section {
     padding: 5rem 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
-   
-.header_top{
-    background-color: #fff;
-    border: 1px solid #000;
+
+/* HEADER */
+.header_top {
+    background-color: aqua;
+    /* border: 1px solid #000; */
 }
 
 .logo {
     font-size: 30px;
 }
 
-.nav_styles a{
+.nav_styles a {
     transition: all 0.25s ease-in-out;
 }
 
-.nav_styles .navbar-brand p:first-child{
+.nav_styles .navbar-brand p:first-child {
     font-size: 36px;
     font-weight: bold;
 }
 
-.nav_styles .navbar-brand p:first-child i{
+.nav_styles .navbar-brand p:first-child i {
     transform: skewX(-10deg);
 }
 
-.nav_styles .navbar-brand p:last-child{
+.nav_styles .navbar-brand p:last-child {
     font-size: 11px;
     letter-spacing: 3px;
     color: blue;
     font-weight: bold;
 }
 
-.nav_transition{
+.nav_transition {
     transition: all 0.75s ease-in-out;
 }
 
-#navbar_bossedu .nav-item {
+#navbar_techedu .nav-item {
     margin: 0px 15px;
 }
 
-#navbar_bossedu .nav-item::after{
+#navbar_techedu .nav-item::after {
     content: '';
     width: 0px;
     height: 3px;
@@ -58,50 +59,51 @@ a{
     transition: all 0.5s;
 }
 
-#navbar_bossedu .nav-item:hover::after{
+#navbar_techedu .nav-item:hover::after {
     width: 100%;
 }
 
-#navbar_bossedu .nav-link{
+#navbar_techedu .nav-link {
     letter-spacing: 1px;
     font-size: 14px;
     color: #000;
     font-weight: bold;
 }
 
-#navbar_bossedu .nav-item:hover .nav-link{
+#navbar_techedu .nav-item:hover .nav-link {
     color: blue;
 }
 
-#navbar_bossedu .nav-item.active .nav-link{
+#navbar_techedu .nav-item.active .nav-link {
     color: blue;
 }
 
-#navbar_bossedu .nav-item.active::after{
+#navbar_techedu .nav-item.active::after {
     width: 100%;
 }
 
-#navbar_bossedu .dropdown-menu{
-    background-color: rgba(0,0,0,0.6);
-    border: 1px solid rgba(0,0,0,0.6);
+#navbar_techedu .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
-.dropdown-item{
+.dropdown-item {
     color: #fff;
 }
 
-.dropdown-item:focus, .dropdown-item:hover{
+.dropdown-item:focus,
+.dropdown-item:hover {
     background-color: transparent;
     color: cyan;
 }
 
 /* CAROUSEL CSS */
-.img_styles{
+.img_styles {
     height: 600px;
-    filter:brightness(50%);
+    filter: brightness(50%);
 }
 
-#carouselBossEdu .carousel-caption{
+#carouselTechEdu .carousel-caption {
     /* kỹ thuật căn giữa chỉ áp dụng với thẻ cha có position: absolute; */
     top: 55%;
     left: 50%;
@@ -109,13 +111,13 @@ a{
     transform: translate(-50%, -50%);
 }
 
-#carouselBossEdu .carousel-caption h5{
+#carouselTechEdu .carousel-caption h5 {
     font-size: 52px;
     letter-spacing: 2px;
     color: #fff;
 }
 
-#carouselBossEdu .carousel-caption p{
+#carouselTechEdu .carousel-caption p {
     letter-spacing: 2px;
     line-height: 1.8rem;
     width: 70%;
@@ -125,7 +127,7 @@ a{
     color: #fff;
 }
 
-#carouselBossEdu .carousel-caption button{
+#carouselTechEdu .carousel-caption button {
     background-color: transparent;
     padding: 11px 20px;
     color: #fff;
@@ -135,32 +137,32 @@ a{
     border: 1px solid #fff;
 }
 
-#carouselBossEdu .carousel-caption button:hover{
+#carouselTechEdu .carousel-caption button:hover {
     background-color: #fff;
     color: #000;
     border: 1px solid #000;
 }
- 
+
 /* WELCOME CSS */
-.heading{
+.heading {
     text-align: center;
     margin-bottom: 3rem;
 }
 
-.heading h2{
+.heading h2 {
     font-size: 40px;
     color: blue;
     letter-spacing: 0.5px;
     font-weight: bold;
 }
 
-.heading p{
+.heading p {
     font-size: 17px;
     letter-spacing: 3px;
 }
 
-.heading p::after{
-    content:'';
+.heading p::after {
+    content: '';
     width: 70px;
     height: 4px;
     background-color: blue;
@@ -168,7 +170,7 @@ a{
     margin: 20px auto;
 }
 
-.welcome_content p{
+.welcome_content p {
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -178,24 +180,24 @@ a{
     padding: 1rem 0 5rem;
 }
 
-.grid_item i{
+.grid_item i {
     font-size: 2rem;
 }
 
-.grid_item h3{
+.grid_item h3 {
     font-size: 1.8rem;
     font-weight: bold;
     color: blue;
     margin: 1rem 0;
 }
 
-.grid_item h4{
+.grid_item h4 {
     font-size: 16px;
     font-weight: bold;
     margin: 1rem 0 0.2rem;
 }
 
-.grid_item p{
+.grid_item p {
     color: #999;
     font-size: 14px;
     line-height: 1.8em;
@@ -203,31 +205,34 @@ a{
     margin: 10px 0 0;
 }
 
-.grid_collum{
+.grid_collum {
     padding: 2rem;
 }
 
 /* Achievements CSS */
-.achievements_bossedu{
+.achievements_bossedu {
     background-image: url(../images/hanoi.png);
     background-attachment: fixed;
-    filter:brightness(85%); 
+    filter: brightness(85%);
     background-size: cover;
 
 }
-.heading_text h2, p{
+
+.heading_text h2,
+p {
     color: #000;
 }
-.achievements_content{
+
+.achievements_content {
     text-align: center;
 }
 
-.content_items i{
+.content_items i {
     font-size: 3rem;
     color: #000;
 }
 
-.content_items h3{
+.content_items h3 {
     font-size: 20px;
     letter-spacing: 3px;
     margin: 30px 0 20px;
@@ -235,7 +240,7 @@ a{
     font-weight: bold;
 }
 
-.content_items p{
+.content_items p {
     color: #fff;
     font-weight: 500px;
     font-size: 3rem;
@@ -243,35 +248,350 @@ a{
 }
 
 /* BENEFIT CSS */
-.benefit_col{
+
+.heading_benefit {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading_benefit h2 {
+    font-size: 40px;
+    color: blue;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.heading_benefit p {
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.heading_benefit p::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: blue;
+    display: block;
+    margin: 20px auto;
+}
+
+.benefit_col {
     padding: 15px;
 }
 
-.benefit_items{
+.benefit_items {
     background-color: #fff;
-    box-shadow: 0px 1px 8px 0px rgba(158,158,158,0.75);
+    box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
     padding: 25px 40px;
     transition: all 0.5s;
     text-align: center;
     border-radius: 5px;
 }
 
-.benefit_items i{
+.benefit_items i {
     font-size: 40px;
     color: blue;
 }
 
-.benefit_items h3{
+.benefit_items h3 {
     margin: 25px 0 20px;
     font-size: 25px;
 }
 
-.benefit_items p{
+.benefit_items p {
     color: #999;
     letter-spacing: 1px;
 }
 
-.benefit_items:hover{
+.benefit_items:hover {
     background-color: aquamarine;
     cursor: pointer;
+}
+
+/* FEEDBACK CSS */
+.heading_feedback {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading_feedback h2 {
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.heading_feedback p {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.heading_feedback p::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: #fff;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.feedback_bossedu {
+    background-image: url(../images/hanoi.png);
+    /* background-attachment: fixed;  */
+    background-size: cover;
+    /* height: 750px; */
+}
+
+.feedback_content {
+    background-color: rgba(0, 0, 0, 0.47);
+    padding: 16px;
+    box-shadow: 0px 1px 7px #8e8e8e;
+}
+
+.feedback_content .item {
+    padding: 1rem;
+}
+
+.feedback_top {
+    padding: 1rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.47);
+    position: relative;
+    border-radius: 5px;
+}
+
+.feedback_top p {
+    color: #fff;
+}
+
+.feedback_content .feedback_bottom img {
+    width: 28%;
+    display: inline-block;
+}
+
+.feedback_bottom {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin: 2rem auto 0;
+}
+
+.feedback_bottom p {
+    color: #fff;
+}
+
+.feedback_bottom p:first-child {
+    font-weight: bold;
+}
+
+.feedback_name p {
+    margin: 0px;
+}
+
+.feedback_name {
+    margin-left: 5px;
+}
+
+.fix_name {
+    width: 160px;
+}
+
+/* .feedback_top p::after{
+    content:'';
+    border-top: 9px solid rgba(0,0,0,0.47);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 28%;
+} */
+
+/* News & Events */
+
+.heading_new_and_event {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading_new_and_event h2 {
+    font-size: 40px;
+    color: blue;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.heading_new_and_event p {
+    color: #000;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.heading_new_and_event p::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: blue;
+    display: block;
+    margin: 20px auto;
+}
+
+/* .new_event_content img{
+    border: 2px solid #000;
+} */
+
+.new_event_content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.new_event_content a {
+    color: #000;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+.new_event_content p {
+    color: #999;
+    line-height: 1.8rem;
+    margin-top: 16px;
+}
+
+.new_event_content a:hover {
+    color: blue;
+}
+
+.new_event_content h4 {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 16px 0;
+}
+
+.new_event_content .row:last-child {
+    margin-top: 5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #141415;
+}
+
+.footer_link {
+    margin-bottom: 16px;
+}
+
+.footer_top h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4f81;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+
+.footer_top p {
+    color: #8b8b96;
+    line-height: 2em;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.footer_link i {
+    color: #ff4f81;
+    margin-right: 16px;
+}
+
+.footer_link a, .footer_contact a{
+    color: #8b8b96;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.footer_link a:hover, .footer_contact a:hover {
+    color: #fff;
+}
+
+.footer_contact i {
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #4b4b50;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.footer_contact {
+    margin-bottom: 16px;
+}
+
+.footer_from{
+    margin-top: 3rem;
+}
+
+.footer_from label {
+    font-size: 24px;
+    color: #ff4f81;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.footer_from input{
+    padding: 14px;
+    border-radius: 5px;
+    color: #888;
+    letter-spacing: 1px;
+    border: none;
+    height: auto;
+}
+
+.footer_from button{
+    padding: 12px 35px;
+    border-radius: 5px;
+    background-color: #ff4f81;
+    outline: none;
+    color: #fff;
+    transition: all 0.5s;
+    letter-spacing: 1px;
+}
+
+.footer_from button:hover{
+    background-color: #ec1955;
+}
+
+.footer_bottom {
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+}
+
+.footer_bottom a{
+    color: #ff4f81;
+    transition: all 0.5s;
+}
+.footer_bottom a:hover{
+    color: #fff;
+}
+/* MODAL */
+
+#Techedu_Modal h5 {
+    font-size: 1.8rem;
+    color: blue;
+}
+
+#Techedu_Modal p {
+    padding: 20px 0;
+    line-height: 1.8em;
+    margin: 0px;
+}
+
+.modal {
+    --bs-modal-width: 600px;
 }

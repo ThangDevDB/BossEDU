@@ -1,0 +1,103 @@
+  <div class="feedback_content">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="feedback_top">
+                                    <p>Xuất phát điểm không phải sinh viên ngành CNTT,
+                                        mình đã gặp khá nhiều khó khăn khi theo đuổi con đường mới này.
+                                        Nhưng nhờ có anh Huy, anh Tùng và BOSS-EDU,
+                                        mình đã nỗ lực hơn và chinh phục thành công Padlet Singapore sớm hẳn 1 năm so
+                                        với dự định của bản thân.
+                                    </p>
+                                </div>
+                                <div class="feedback_bottom">
+                                    <!-- <img src="./images/feedbackavt1.jpg" class="image" alt=""> -->
+                                    <div class="feedback_names">
+                                        <p>Đỗ Thị Thùy Trang</p>
+                                        <p>Padlet Singapore</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="feedback_top">
+                                    <p>Em thấy BOSS-EDU rất tuyệt, có thể đánh giá 10/10.
+                                        Môi trường học rất tốt, 2 anh giảng viên của em là 2 anh tận tâm nhất mà em từng
+                                        học.
+                                        Kỷ niệm đáng nhớ nhất là Hackathon vì nó mang lại cho em hiểu biết khá nhiều về
+                                        ngành lập trình và khó khăn của nó như thế nào.
+                                    </p>
+                                </div>
+                                <div class="feedback_bottom">
+                                    <!-- <img src="./images/feedbackavt2.jpg" alt=""> -->
+                                    <div class="feedback_names">
+                                        <p>Trần Trung Hiếu</p>
+                                        <p>FPT SOFTWARE</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="feedback_top">
+                                    <p> Mình từng lãng phí thời gian và mất gốc khi còn là sinh viên năm 2 đại học.
+                                        Nếu không có anh Tùng, anh Huy ở BOSS-EDU chắc mình cũng không có được như ngày
+                                        hôm nay.
+                                    </p>
+                                </div>
+                                <div class="feedback_bottom">
+                                    <!-- <img src="./images/feedbackavt3.jpg" alt=""> -->
+                                    <div class="feedback_names">
+                                        <p>Đỗ Văn Tú</p>
+                                        <p>Tech Leader - Techcombank</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="feedback_top">
+                                    <p> Mình từng lãng phí thời gian và mất gốc khi còn là sinh viên năm 2 đại học.
+                                        Nếu không có anh Tùng, anh Huy ở BOSS-EDU chắc mình cũng không có được như ngày
+                                        hôm nay.
+                                    </p>
+                                </div>
+                                <div class="feedback_bottom">
+                                    <!-- <img src="./images/feedbackavt2.jpg" alt=""> -->
+                                    <div class="feedback_names">
+                                        <p>Đỗ Văn Tú</p>
+                                        <p>Tech Leader - Techcombank</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="feedback_top">
+                                    <p> Mình từng lãng phí thời gian và mất gốc khi còn là sinh viên năm 2 đại học.
+                                        Nếu không có anh Tùng, anh Huy ở BOSS-EDU chắc mình cũng không có được như ngày
+                                        hôm nay.
+                                    </p>
+                                </div>
+                                <div class="feedback_bottom">
+                                    <!-- <img src="./images/feedbackavt2.jpg" alt=""> -->
+                                    <div class="feedback_names">
+                                        <p>Đỗ Văn Tú</p>
+                                        <p>Tech Leader - Techcombank</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="feedback_top">
+                                    <p> Mình từng lãng phí thời gian và mất gốc khi còn là sinh viên năm 2 đại học.
+                                        Nếu không có anh Tùng, anh Huy ở BOSS-EDU chắc mình cũng không có được như ngày
+                                        hôm nay.
+                                    </p>
+                                </div>
+                                <div class="feedback_bottom">
+                                    <!-- <img src="./images/feedbackavt2.jpg" alt=""> -->
+                                    <div class="feedback_names">
+                                        <p>Đỗ Văn Tú</p>
+                                        <p>Tech Leader - Techcombank</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
